@@ -1,0 +1,23 @@
+/* CSS */
+.select-component {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .select-component:focus {
+    border-color: #4A90E2;
+    background-color: #e6f0ff;
+    outline: none;
+  }
+  
+  .select-component:disabled {
+    background-color: #f0f0f0;
+    color: #ccc;
+  }
+  
